@@ -1,10 +1,10 @@
 cask "kusa" do
-  arch arm: "aarch64", intel: "65ea7e3c33713a1d124c21f5b1a7a46897461200ea48f6a327c148c8f0f28132"
+  arch arm: "aarch64", intel: "86e6b54070fb04f458a643bfb64259a639dc05e4c5ecc5f75101730749ccaba3"
 
   version "0.3.2"
 
-  sha256 arm:   "dea846a08e83062c1ac6aeea0bbf8f5c46bef01c11b14869199422077c042879",
-         intel: "65ea7e3c33713a1d124c21f5b1a7a46897461200ea48f6a327c148c8f0f28132"
+  sha256 arm:   "1a969f212af950b32bdcc1c99da508697024f838f5863c3813fcb70eec7e8767",
+         intel: "86e6b54070fb04f458a643bfb64259a639dc05e4c5ecc5f75101730749ccaba3"
 
   url "https://github.com/kaze-jp/kusa/releases/download/v#{version}/kusa_#{version}_#{arch}.dmg",
       verified: "github.com/kaze-jp/kusa/"
