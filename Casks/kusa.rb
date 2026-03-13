@@ -3,7 +3,7 @@ cask "kusa" do
 
   version "0.2.1"
 
-  sha256 arm:   "03473c7e5147c394ca517ec4c6086ac95995a29c84afc0999fe28c7896a63e6e",
+  sha256 arm:   "0883c3ad9879d3e440df3d79c12ebbd4c61db0c6790024905e675390b297ff5b",
          intel: "dbefef7052a89723ffcb800b52e3cad1fb3b0f27e227bc382079d3c1092d9fe6"
 
   url "https://github.com/kaze-jp/kusa/releases/download/v#{version}/kusa_#{version}_#{arch}.dmg",
