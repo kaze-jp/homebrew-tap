@@ -25,6 +25,11 @@ cask "kusa" do
   # Symlink the CLI binary so `kusa` is available in PATH
   binary "#{appdir}/kusa.app/Contents/MacOS/kusa"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/kusa.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/jp.kaze.kusa",
     "~/Library/Caches/jp.kaze.kusa",
